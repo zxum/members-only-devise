@@ -15,3 +15,11 @@
  */
 
 @import "bulma";
+.notification {
+    border-radius: 0;
+    padding: .50rem 2.5rem .50rem 1.5rem;
+}
+
+.notification:not(:last-child) {
+    margin-bottom: 0;
+}
