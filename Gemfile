@@ -45,6 +45,9 @@ gem 'bulma-rails', '~> 0.9.0'
 # Use Simple Form for forms 
 gem 'simple_form', '~> 5.0', '>= 5.0.3'
 
+# Use gravatar for user icon displays 
+gem 'gravatar_image_tag', '~> 1.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
